@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(244 244 244);
+}
+#full{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    height: 7%;
+    width: 100%;
+    background-color: rgb(0 77 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+#top-links{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+}
+#top-links a{
+    color: white;
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(244 244 244);
+}
+#center-head{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    padding:  15px;
+    background-color: rgb(255 255 255);;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px rgb(114, 111, 111);
+    gap: 10px;
+
+}
+#center-head .inDetail{
+    display: flex;   
+}
+#center-head h2{
+    color: rgb(0 77 0);
+}
+#center-head h3{
+    font-size: 12px;
+}
+#centerMiddle{
+    margin-top: 10px;
+    width: 95%;
+}
+#centerMiddle h2{
+    color: rgb(0 77 0);
+}
+#center-center{
+    width: 95%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  9px;
+    background-color: rgb(230 230 230);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 0px 3px rgb(114, 111, 111);
+}
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+form .input{
+    border:white;
+    border-radius: 3px;
+    height: 30px;
+    box-shadow: -1px -1px 2px rgb(180, 174, 174);
+}
+form #button{
+    width: 60px;
+    background-color: rgb(0 77 0);
+    color: white;
+    border-radius: 5px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0 77 0);
+    text-align: center;
+    color: white;
+}

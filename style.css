@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:  rgb(240 240 240);
+}
+#full{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    height: 7%;
+    width: 100%;
+    background-color: rgb(0 77 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+#top-links{
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    width: 80%;
+    justify-content: center;
+}
+#top-links a{
+    color: white;
+    text-decoration: none;
+}
+#center{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color:rgb(240 240 240);
+}
+#center-head{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding:  9px;
+    background-color: rgb(255 255 255);;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px rgb(114, 111, 111);
+
+}
+#center-head h3{
+    font-size: 12px;
+}
+#center-center{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  9px;
+    background-color: rgb(255 255 255);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 0px 3px rgb(114, 111, 111);
+}
+#top-upcoming{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:px;
+    margin-top: 5px;
+}
+#center-upcoming{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+.link{
+    width: 50%;
+    border-radius: 2px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 0px 3px rgb(114, 111, 111);
+    background-color:rgb(230 230 230) ;
+}
+.link:hover{
+    background-color:rgb(204 204 204);
+}
+
+.Technical{
+    border-radius: 2px;
+    background-color: rgb(255 255 153);
+    display: flex;
+    justify-content: center;
+    width: 70px;
+}
+.Tactical{
+    border-radius: 2px;
+    background-color: rgb(153 204 255);
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+.Physical{
+    border-radius: 2px;
+    background-color: rgb(255 153 153);
+    display: flex;
+    justify-content: center;
+    width: 60px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0 77 0);
+    text-align: center;
+    color: white;
+}
+#name{
+    font-weight:50;
+    font-size: 14px;
+}
